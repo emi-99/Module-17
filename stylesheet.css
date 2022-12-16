@@ -1,0 +1,170 @@
+* {
+    padding: 10px;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif, 'Noto Serif', serif;
+}
+body {
+    background-color: #121212; 
+}
+.DonateButton {
+    background-color: #FDFDFC;
+    border-radius: 5px;
+    color: #121212;
+    font-family:'Nunito Sans',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+.hero-image {
+    background-image: url("hero.png");
+    width: 1440px;
+    height: 872px;
+}
+.subscribeButton {
+    background-color: #FDFDFC;
+    border: none;
+    border-radius: 10px;
+    color: #121212;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    width: 450px;
+    height: 100px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 40px;
+    padding-right: 10%;
+}
+.logo {
+ width: 128px;
+ height: 128px;  
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a {
+    color: #FDFDFC;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+h1 {
+    font-family:'Noto Serif', serif;
+    font-size: 96px;
+    font-weight: 400;
+    color: #FDFDFC;
+}
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:24px;
+    font-weight:700;
+    color: #FDFDFC;
+}
+h4 {
+    font-size: 40px ;
+    font-weight: 600;
+}
+p {
+    font-size: 20px;
+    font-weight: 600;
+}
+.card1 {
+    background-image: linear-gradient(to bottom right, rgba(237,237,237,8%),rgba(255,255,255,3%));
+    width:385.21px;
+    height: 667px;
+    border: none;
+    border-radius: 10px;
+}
+.tree {
+    width: 332.9px;
+    height: 330.52px;
+    border: none;
+    border-radius: 5px;
+}
+.container1 {
+    color: #FDFDFC;
+    padding: 16px 16px;
+}
+.card2 {
+    background-image: linear-gradient(to bottom right, rgba(237,237,237,8%),rgba(255,255,255,3%));
+    width:385.21px;
+    height: 667px;
+    border: none;
+    border-radius: 10px;
+}
+.child{
+    width: 332.9px;
+    height: 330.52px;
+    border: none;
+    border-radius: 5px;
+}
+.container2 {
+    color: #FDFDFC;
+    padding: 16px 16px;
+}
+.card3 {
+    background-image: linear-gradient(to bottom right, rgba(237,237,237,8%),rgba(255,255,255,3%));
+    width:385.21px;
+    height: 667px;
+    border: none;
+    border-radius: 10px;
+}
+.violet {
+    width: 332.9px;
+    height: 330.52px;
+    border: none;
+    border-radius: 5px;
+}
+.container3 {
+    color: #FDFDFC;
+    padding: 16px 16px;
+}
+.LearnMoreButton {
+    width: 203px;
+    height: 52px;
+    background-color: #3A844A;
+    color: #FDFDFC;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+.row2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+hr {
+    color: #FDFDFC;
+    border-top: 3px solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+footer {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-rows: 300px;
+   font-family: 'Nunito Sans', sans-serif;
+} 
+.footerGrid {
+    grid-template-areas: "Contact" "Careers" "Donate" "Privacy Policy" "Volunteer";
+}
+footer ul li {
+    list-style-type: none;
+    display: -moz-inline-stack;
+}
+footer ul li a {
+    color: #FDFDFC;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+}
